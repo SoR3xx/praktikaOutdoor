@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.8;
+}
+/* -------------------------- Header -------------------------- */
+header{
+    width: 1440px;
+    height: 79px;
+}
+/* -------------------------- Section 1 -------------------------- */
+.Sec1Div{
+    width: 1440px;
+    height: 640px;
+}
+/* -------------------------- Section 2 -------------------------- */
+.Sec2Div{
+    width: 1440px;
+    height: 776px;
+}
+/* -------------------------- Section 3 -------------------------- */
+.Sec3Div{
+    width: 1440px;
+    height: 900px;
+}
+/* -------------------------- Section 4 -------------------------- */
+.Sec4Div{
+    width: 1440px;
+    height: 1353px;
+}
+/* -------------------------- Section 5 -------------------------- */
+.Sec5Div{
+    width: 1440px;
+    height: 600px;
+}
+/* -------------------------- Section 6 -------------------------- */
+.Sec6Div{
+    width: 1440px;
+    height: 393px;
+}
+/* -------------------------- Section 7 -------------------------- */
+.Sec7Div{
+    width: 1440px;
+    height: 743px;
+}
+/* -------------------------- Section 8 -------------------------- */
+.Sec8Div{
+    width: 1440px;
+    height: 875px;
+}
+/* -------------------------- Footer -------------------------- */
+footer{
+    width: 1440px;
+    height: 567px;
+    background-color: #575445;
+    padding: 100px 136px 0 136px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+}
+.LogoFooter{
+    align-self: center;
+}
+footer ul li{
+    list-style-type: none;
+    margin-top: 9px;
+    font-size: 14px;
+    font-weight: 400;
+}
+footer div{
+    display: flex;
+}
+footer a{
+    color: white;
+}
+footer ul p{
+    color: #e6b939;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.firstUlFooter{
+    margin-right: 100px;
+}
+.SecondUlFooter{
+    margin-right: 75px;
+}
+.FooterDiv{
+    margin-top: 76px;
+}
+.LastUlFooter{
+    margin-right: 149px;
+}
+.InputFooter{
+    padding-left: 5px;
+    color: #6F7278;
+    font-size: 16px;
+    font-weight: 400;
+    width: 458px;
+    height: 53px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+}
+input::-webkit-input-placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6F7278;
+    padding-left: 34px;
+}
+.Subscription{
+    display: flex;
+    flex-direction: column;
+}
+.newsletterText{
+    color: #e6b939;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+}
+.SubscriptionText{
+    color: #fafafc;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    width: 450px;
+}
+.InputEmail a{
+    font-size: 16px;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #575445;
+    width: 73px;
+    height: 39px;
+    margin: 7px 0 0 -80px;
+}
+.UnderUlAndInput{
+    margin-top: 30px;
+    display: flex;
+    color: white;
+}
+.UnderUlAndInput img{
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+}
+.UnderUlAndInput div{
+    display: flex;
+    margin-left: 553px;
+}
+.UnderUlAndInput img:hover{
+    transform: scale(1.2);
+}
