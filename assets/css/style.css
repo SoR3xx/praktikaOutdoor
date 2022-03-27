@@ -592,13 +592,6 @@ footer div{
 footer a{
     color: white;
 }
-footer ul p{
-    color: #e6b939;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
 .firstUlFooter{
     margin-right: 100px;
 }
@@ -671,4 +664,25 @@ input::-webkit-input-placeholder{
 }
 .UnderUlAndInput img:hover{
     transform: scale(1.2);
+}
+#CompaniLiFooter{
+    color: #e6b939;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#GearCategoriesLiFooter{
+    color: #e6b939;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#PagesLiFooter{
+    color: #e6b939;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
